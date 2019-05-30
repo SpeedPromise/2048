@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>2048</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="title">2048</h1>
+            <div class="scores-container">
+                <div class="score-container">
+                </div>
+                <div class="best-container">
+                </div>
+            </div>
+        </div>
+        <div class="above-game">
+            <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+            <a class="restart-button">New Game</a>
+        </div>
+        <div class="game-container">
+            <div class="game-message">
+                <p></p>
+                <div class="lower">
+                    <a class="keep-playing-button">Keep going</a>
+                    <a class="retry-button">Try again</a>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+            </div>
+            <div class="tile-container"></div>
+        </div>
+        <p class="game-explanation"><strong class="important">How to play:</strong> Use your <strong>
+            arrow keys</strong> to move the tiles. When two tiles with the same number touch, they 
+            <strong>merge into one!</strong></p>
+        <hr>
+        <p><strong class="important">Note:</strong> This site is not the official version of 2048. 
+            Just a fake web page for learning. Any suggestions can tell me by email
+            <span style="color: brown">TeemoPro@163.com</span></p>
+        <hr>
+        <p>
+            Cteated by <a href='https://github.com/SpeedPromise' target="_blank">S.Pro</a>. Based on 
+            <a href='https://github.com/gabrielecirulli/2048' target="_blank">Gabriele Cirulli</a>.
+        </p>
+    </div>
+
+    <script src="js/keyboard_input_manager.js"></script>
+    <script src="js/html_actuator.js"></script>
+    <script src="js/grid.js"></script>
+    <script src="js/tile.js"></script>
+    <script src="js/local_storage_manager.js"></script>
+    <script src="js/game_manager.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
