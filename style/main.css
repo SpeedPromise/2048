@@ -10,7 +10,7 @@ html, body {
 /* test */
 /* div {
     border: 1px solid #000;
-} */
+}  */
 
 body {
     margin: 80px 0;
@@ -54,7 +54,6 @@ h1.title {
 
 .scores-container {
     float: right;
-    /* text-align: right; */
 }
 .score-container, .best-container {
     position: relative;
@@ -112,7 +111,7 @@ h1.title {
 }
 .restart-button {
     float: right;
-    display: inline-block;
+    display: block;
     background: #8f7a66;
     border-radius: 3px;
     padding: 0 20px;

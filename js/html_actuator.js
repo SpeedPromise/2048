@@ -56,7 +56,7 @@ HTMLActuator.prototype.addTile = function (tile) {
 
     inner.classList.add('tile-inner')
     inner.textContent = tile.value
-
+    // move, merge, new
     if (tile.prePosition) {
         window.requestAnimationFrame(function () {
             classes[2] = self.positionClass({
